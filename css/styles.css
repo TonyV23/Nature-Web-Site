@@ -42,3 +42,65 @@ nav.nav{
 nav.nav li{
     color: white;
 }
+/* SERVICE */
+.services{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+.service-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.delivery-icon{
+    font-size: 50px;
+    color: #ADD981;
+}
+.service-details{
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+/*BEST SELLS*/
+.section-title{
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100px;
+    position: relative;
+}
+.section-title::before{
+    content: "";
+    position: absolute;
+    background-color: #ADD981;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+.bests-items{
+    margin: 100px;
+}
+.best-plants{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.plant-box{
+    background-size: cover;
+    background-position: center;
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+.plant1{
+    background-image: url(../images/nos_meilleures_ventes/1.jpg);
+}
+.plant2{
+    background-image: url(../images/nos_meilleures_ventes/2.jpg);
+}
+.plant3{
+    background-image: url(../images/nos_meilleures_ventes/3.jpg);
+}
+.plant4{
+    background-image: url(../images/nos_meilleures_ventes/4.jpg);
+}
