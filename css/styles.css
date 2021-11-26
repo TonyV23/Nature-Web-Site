@@ -87,8 +87,11 @@ nav.nav li{
     flex-wrap: wrap;
 }
 .plant-box{
+    position: relative;
     background-size: cover;
     background-position: center;
+}
+.no-grid{   
     min-width: 250px;
     height: 400px;
     flex: 1;
@@ -108,4 +111,21 @@ nav.nav li{
 .plant4{
     background-image: url(../images/nos_meilleures_ventes/4.jpg);   
 }
-
+.plant-details{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 20px;
+    background-color: #FFFFFFDF;
+}
+.plant-name{
+    font-size: 22px;
+    line-height: 2px;
+    font-weight: 600;
+}
+.plant-price{
+    color: #99da58;
+    line-height: 2px;
+    font-weight: 800;
+    font-size: 10px;
+}
