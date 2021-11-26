@@ -81,26 +81,31 @@ nav.nav li{
     margin: 100px;
 }
 .best-plants{
-    width: 500px;
+    background-color: red;
+    min-width: 500px;
     display: flex;
     flex-wrap: wrap;
 }
 .plant-box{
     background-size: cover;
     background-position: center;
-    min-width: 350px;
-    height: 500px;
+    min-width: 250px;
+    height: 400px;
     flex: 1;
 }
 .plant1{
     background-image: url(../images/nos_meilleures_ventes/1.jpg);
+    
 }
 .plant2{
     background-image: url(../images/nos_meilleures_ventes/2.jpg);
+    
 }
 .plant3{
     background-image: url(../images/nos_meilleures_ventes/3.jpg);
+    
 }
 .plant4{
-    background-image: url(../images/nos_meilleures_ventes/4.jpg);
+    background-image: url(../images/nos_meilleures_ventes/4.jpg);   
 }
+
